@@ -1,0 +1,19 @@
+body.clearMode {
+    background:
+        radial-gradient(ellipse farthest-corner at 50% 150%, rgba(0, 0, 0, 0.4) 0%, #e3e3ec 100%),
+        center url(../img/pixel.png),
+        #ffffff;
+    background-size:
+        auto,
+        5px,
+        auto;
+    background-attachment: fixed;
+}
+
+body.clearMode .vst {
+    background: #697079;
+}
+
+body.clearMode .btn:hover {
+    background-color: rgb(77, 148, 255);
+}
