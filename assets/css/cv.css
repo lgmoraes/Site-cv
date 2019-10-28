@@ -1,115 +1,256 @@
-html {
-    height: 100%;
+#cv {
+    color: black;
+    padding-top: 230px;
+    font-family: Calibri, sans-serif;
+    position: relative;
 }
-body {
-    height: 100%;
+
+.icon::before {
+    vertical-align: top;
+}
+
+h1 {
+    color: #777777;
+    font-family: arial;
+    letter-spacing: 15px;
+}
+
+h2 {
+    text-align: left;
     margin: 0;
-    padding: 50px 8px;
-    color: #ddd;
-    box-sizing: border-box;
-    font-family: "Calibri";
-    background:
-        radial-gradient(ellipse farthest-corner at 50% 150%, rgba(0, 0, 0, 0.4) 0%, #313138 100%),
-        center url(../img/pixel.png),
-        #8d8d8d;
-    background-size:
-        auto,
-        5px,
-        auto;
-    background-attachment: fixed;
 }
-#menuTop {
-    width: 100%;
-    line-height: 0;
-    border-radius: 0;
-    padding: 7px 20px;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-#menuTop .btn {
+
+.container {
     display: inline-block;
 }
-#btns {
-    float: right;
+.container.center {
+    text-align: center;
+}
+.container-centered {
+    text-align: left;
+    display: inline-block;
+}
+
+
+.accordion {
+    box-sizing: border-box;
+    padding: 2em;
+}
+
+#cv_photo {
+    border-radius: 6px;
+}
+
+
+/* ACCORDION */
+h2.icon::before {
+    color: #777777;
+    margin-right: 0.5em;
+}
+
+.accordion .title {
+    font-weight: bold;
+}
+
+.accordion .title:not(:first-child) {
+    margin-top: 10px;
+}
+
+.accordion .container {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+
+/* ID */
+#container_id {
+    width: 500px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+}
+#container_id .container {
+    color: #777777;
+    font-size: 20px;
+    margin-left: 10px;
     vertical-align: top;
 }
-#btns .btn {
-    width: 40px;
-    font-size: 19px;
-    text-align: center;
-    border-radius: 0;
-    border-right-width: 0;
+#container_id .container > * {
+    display: block;
+    margin-bottom: 5px;
 }
-#btns .btn:first-child {
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
+#container_id .name {
+    color: black;
+    margin-left: 5px;
+    font-size: 42px;
 }
-#btns .btn:last-child {
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    border-right-width: 1px;
+#container_id .info_box {
+    text-align: left;
+    display: inline-block;
 }
-#btn_portfolio {
+#container_id .info_box > * {
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+
+/* LINKS */
+#container_links {
+    font-size: 12px;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+#container_links a {
+    color: #777777;
+    margin-bottom: 7px;
+    display: block;
+}
+#container_links a img {
+    height: 14px;
+    margin-right: 6px;
+    vertical-align: top;
+}
+
+
+/* REALISATION */
+.realisation {
+    margin: 0.4em 0;
+}
+.realisation img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.realisation .title {
+    color: #777777;
+    margin-right: 10px;
+}
+.realisation img, .realisation .title, .realisation .description {
+    display: inline-block;
+}
+
+
+/* COMPETENCES */
+#container_competences > .container {
+    padding: 1em;
+    margin: 0;
+}
+.competence {
+    max-width: 305px;
+    margin: 28px 0;
+}
+.competence img {
+    width: 38px;
+    height: 38px;
+    margin-top: 10px;
+    margin-right: 12px;
+    vertical-align: top;
+    display: inline-block;
+}
+.competence .container {
+    margin: 0;
+}
+.competence .title {
+    color: #777777;
+    margin-left: .5em;
+    font-size: 17px;
+}
+.competence .bar {
+    width: 250px;
     max-width: 100%;
-    padding-left: 4px;
-    padding-right: 8px;
-    font-size: 18px;
+    height: 19px;
     border-radius: 4px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    overflow: hidden;
-    white-space: nowrap;
-}
-#btn_portfolio .icon {
-    line-height: 25px;
-    font-size: 24px;
-    vertical-align: top;
-}
-#btn_arrowUp {
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    padding: 0;
-    text-align: center;
-    font-size: 22px;
-    border-radius: 100%;
-    box-sizing: border-box;
-    opacity: .0;
-    cursor: default;
-    transition: .5s;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-}
-.btn {
-    height: 36px;
-    line-height: 24px;
-    padding: 5px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color .2s;
+    background-color: rgba(121, 121, 121, 0.2);
+    box-shadow: 0 0 7px inset rgba(121, 121, 121, 0.4);
     box-sizing: border-box;
 }
-.btn:hover {
-    background-color: rgb(50, 132, 255);
+.competence .progress {
+    height: 19px;
+    border-radius: 4px;
+    background-color: rgb(196, 196, 196);
+    background-image: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0.3) 0%,
+        rgba(255, 255, 255, 0) 50%,
+        rgba(0, 0, 0, 0.4) 100%);
+    box-shadow:
+        0 0 0 1px rgba(60, 60, 60, 0.25) inset,
+        0 0 6px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
 }
 
 
-@media (max-width: 340px) {
-    body {
-        padding-top: 80px;
+
+@media (max-width: 680px) {
+    #cv {
+        padding: 20px;
     }
-    #menuTop {
-        padding: 7px;
-    }
-    #btns {
+
+    .container, .container-centered, .accordion, #container_id, #container_links, #container_id .container {
         width: 100%;
-        margin-top: 10px;
+        text-align: center;
         display: block;
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
     }
-    #btns .btn {
-        width: 33.3%;
+
+    .accordion .container {
+        margin-left: 0;
+    }
+
+    #container_id .name {
+        margin-left: 0;
+    }
+
+    #container_links {
+        margin: 15px 0;
+    }
+    #container_links a {
+        display: inline-block;
+    }
+    #container_links a img {
+        height: 30px;
+        margin: 5px;
+    }
+    #container_links .link {
+        display: none;
+    }
+
+    .realisation {
+        margin: 2em 0;
+    }
+
+    #container_competences > .container {
+        padding: 0;
+    }
+    .competence {
+        max-width: none;
+    }
+    .competence img {
+        margin: 0;
+    }
+    .competence .title {
+        margin: 0;
+    }
+    .competence .bar {
+        margin: auto;
+    }
+
+    #cv_photo {
+        border-radius: 100%;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin: 40px 0;
+        letter-spacing: 10px;
+    }
+
+    h2 {
+        text-align: center;
     }
 }
