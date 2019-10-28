@@ -72,6 +72,7 @@ hr.center {
 	background: none repeat scroll 0% 0% rgba(255, 255, 255, 0.9);
 	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.6);
 	box-sizing: border-box;
+	z-index: 1;
 }
 
 .sup {

@@ -24,6 +24,7 @@ body {
     border-radius: 0;
     padding: 7px 20px;
     box-sizing: border-box;
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -79,6 +80,7 @@ body {
     opacity: .0;
     cursor: default;
     transition: .5s;
+    z-index: 3;
     position: fixed;
     right: 30px;
     bottom: 30px;
