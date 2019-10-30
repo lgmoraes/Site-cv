@@ -84,6 +84,23 @@
         <h1>DÉVELOPPEUR WEB</h1>
 
         <div class="accordion col-50">
+            <h2 class="icon calendar-valide">Expérience</h2>
+            <div class="container">
+                <div class="title">
+                    2014 – 2019 : GIP FCIP - Académie de Lille
+                </div>
+                <div class="description">
+                    Développeur Web
+                </div>
+                <div class="title">
+                    2012 – 2013 : Alternance au Crédit du Nord - Lille
+                </div>
+                <div class="description">
+                    Chargé de qualité
+                </div>
+            </div>
+        </div><!--
+     --><div class="accordion col-50">
             <h2 class="icon bookmark">Formation</h2>
             <div class="container">
                 <div class="title">
@@ -91,23 +108,6 @@
                 </div>
                 <div class="description">
                     BTS - SIO (Services Informatiques aux Organisations)
-                </div>
-            </div>
-        </div><!--
-     --><div class="accordion col-50">
-            <h2 class="icon calendar-valide">Expérience</h2>
-            <div class="container">
-                <div class="title">
-                    2012 – 2013 : Alternance au Crédit du Nord - Lille
-                </div>
-                <div class="description">
-                    Chargé de qualité
-                </div>
-                <div class="title">
-                    2014 – 2019 : GIP FCIP - Académie de Lille
-                </div>
-                <div class="description">
-                    Développeur Web
                 </div>
             </div>
         </div><!--
