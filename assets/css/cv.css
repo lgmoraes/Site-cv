@@ -13,6 +13,7 @@ h1 {
     color: #777777;
     font-family: arial;
     letter-spacing: 15px;
+    position: relative;
 }
 
 h2 {
@@ -91,6 +92,28 @@ h2.icon::before {
 #container_id .info_box > * {
     margin-bottom: 4px;
     display: inline-block;
+}
+#animation1, #animation2 {
+    color: #ddd;
+    font-family: "WebAtlas";
+    position: absolute;
+    animation: icon-rotation 6s linear infinite;
+}
+#animation1 {
+    font-size: 9em;
+    top: 268px;
+    right: 118px;
+}
+#animation2 {
+    font-size: 7em;
+    top: 200px;
+    right: 38px;
+    animation-direction: reverse;
+}
+
+@keyframes icon-rotation {
+    0%   {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
 
 
@@ -184,6 +207,17 @@ h2.icon::before {
 @media (max-width: 680px) {
     #cv {
         padding: 20px;
+    }
+
+    #animation1 {
+        font-size: 6em;
+        top: 416px;
+        right: 83px;
+    }
+    #animation2 {
+        font-size: 4.5em;
+        top: 364px;
+        right: 36px;
     }
 
     .container, .container-centered, .accordion, #container_id, #container_links, #container_id .container {

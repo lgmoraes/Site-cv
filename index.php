@@ -80,6 +80,9 @@
                 <span class="link">github.com/lgmoraes</span>
             </a>
         </div>
+        
+        <div id="animation1" class="icon wheel8"></div>
+        <div id="animation2" class="icon wheel8"></div>
 
         <h1>DÉVELOPPEUR WEB</h1>
 
