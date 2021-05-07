@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "animate.css": "^3.7.2",
-    "atom_webatlas": "^1.0.1",
-    "font_webatlas": "^1.0.0",
-    "screenfull": "^4.2.0"
+    "atom_webatlas": "^1.1.1",
+    "font_webatlas": "^2.0.1",
+    "screenfull": "^4.2.1"
   }
 }

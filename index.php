@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.png">
 
-    <link rel="stylesheet" href="node_modules/font_webatlas/dist/css/webAtlas-icons.css" />
-    <link rel="stylesheet" href="node_modules/font_webatlas/dist/css/font-face/webAtlas-icons.css" />
-    <link rel="stylesheet" href="node_modules/font_webatlas/dist/css/font-face/webAtlas-alphanumeric.css" />
+    <link rel="stylesheet" href="node_modules/font_webatlas/webAtlas.css" />
+    <link rel="stylesheet" href="node_modules/font_webatlas/font-face/webAtlas-original.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/design.css">
     <link rel="stylesheet" href="assets/css/viewer.css">
@@ -23,7 +22,7 @@
     <div id="menuTop" class="vst">
         <a href="..">
             <div id="btn_portfolio" class="btn vst">
-                <div class="icon circle-leftArrow div"></div>
+                <div class="icon circle-arrowLeft div"></div>
                 Aller au portfolio
             </div>
         </a>
@@ -36,7 +35,7 @@
         
     </div>
 
-    <div id="btn_arrowUp" class="btn glass icon arrow-up"></div>
+    <div id="btn_arrowUp" class="btn glass icon arrow2-up"></div>
     
     <!-- CV -->
     <div id="cv" class="page">
