@@ -39,7 +39,85 @@
     
     <!-- CV -->
     <div id="cv" class="page">
-        
+        <div id="container_id">
+            <img id="cv_photo" src="assets/img/louis-moraes.svg" width="150" alt="Photo CV">
+            <h1>Louis MORAES</h1>
+        </div>
+
+        <div id="container_contact">
+            <h2>CONTACT</h2>
+            <a href="mailto:lmoraes@hotmail.fr">
+                <i class="icon email"></i> Lmoraes@hotmail.fr
+            </a>
+            <br>
+            <a href="tel:0629029351">
+                <i class="icon mobile"></i> 06 29 02 93 51
+            </a>
+            <br>
+            <a href="https://www.google.fr/maps/place/93+Rue+Cuvier,+59200+Tourcoing">
+                <div class="icon home"></div>
+                <div id="address">
+                    93 rue Cuvier<br>
+                    59200 Tourcoing
+                </div>
+            </a>
+
+            <i class="background icon idCard"></i>
+        </div>
+
+        <div id="container_reseaux">
+            <h2>RÉSEAUX</h2>
+
+            <a href="https://www.linkedin.com/in/lgmoraes">
+                <img src="assets/img/linkedin.svg" alt="icon linked in">
+                <span class="link">linkedin.com/in/lgmoraes</span>
+            </a>
+            <a href="https://www.npmjs.com/~lgmoraes">
+                <img src="assets/img/npm.svg" alt="icon npm">
+                <span class="link">npmjs.com/~lgmoraes</span>
+            </a>
+            <a href="https://github.com/lgmoraes">
+                <img src="assets/img/github.svg" alt="icon github">
+                <span class="link">github.com/lgmoraes</span>
+            </a>
+
+            <i class="background icon network"></i>
+        </div>
+
+        <div id="container_job">
+            DÉVELOPPEUR / INTÉGRATEUR WEB
+        </div>
+
+        <div id="animation1" class="icon gear8"></div>
+        <div id="animation2" class="icon gear8"></div>
+
+        <div id="bandeBlanche">
+            <div class="container">
+                <h2>Formation</h2>
+                <h2>Expérience</h2>
+            </div><div class="container">
+                <h2>Réalisations</h2>
+            </div>
+            
+        </div>
+
+        <h2>Compétences</h2>
+
+        <div class="center">
+            <div id="container_integrateur" class="container_competences">
+                <img src="assets/img/icone_integrateur.svg" class="icon">
+                <h3>INTÉGRATEUR</h3>
+                
+
+            </div>
+
+            <div id="container_developpeur" class="container_competences">
+                <img src="assets/img/icone_developpeur.svg" class="icon">
+                <h3>DÉVELOPPEUR</h3>
+
+
+            </div>
+        </div>
         
                 
     </div>

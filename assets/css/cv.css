@@ -1,7 +1,7 @@
 #cv {
+    padding: 1em;
     color: black;
     background-color: #EEEEEE;
-    padding-top: 230px;
     font-family: Calibri, sans-serif;
     position: relative;
 }
@@ -11,9 +11,7 @@
 }
 
 h1 {
-    color: #777777;
-    font-family: arial;
-    letter-spacing: 15px;
+    margin: 0;
     position: relative;
 }
 
@@ -22,58 +20,117 @@ h2 {
     margin: 0;
 }
 
-.container {
-    display: inline-block;
-}
-.container.center {
+#container_job {
+    line-height: 2em;
+    color: #777777;
+    font-family: Arial;
     text-align: center;
-}
-.container-centered {
-    text-align: left;
-    display: inline-block;
+    font-size: 18px;
+    letter-spacing: 5px;
 }
 
+.container {
+    vertical-align: top;
+    display: inline-block;
+}
+.center {
+    text-align: center;
+}
 
 
 /* ID */
-#container_id .container {
+#container_id {
+    text-align: center;
+}
+
+
+/* CONTACT & RESEAUX */
+
+#container_contact, #container_reseaux {
+    width: 160px;
+    height: 150px;
     color: #777777;
-    font-size: 20px;
-    margin-left: 10px;
+    background-color: #F5F5F5;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(76, 76, 76, .3);
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+}
+#container_contact i.background, #container_reseaux i.background {
+    color: #E8E8E8;
+    font-size: 6em;
+    z-index: -1;
+    position :absolute;
+    top: 30px;
+    right: -20px;
+}
+#container_contact h2, #container_reseaux h2 {
+    margin-bottom: 2em;
+    font-family: Arial;
+    font-size: 15pt;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
+    letter-spacing: 5px;
+}
+
+#container_contact {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    left: 0;
+
+    line-height: 1.4em;
+}
+#container_contact #address {
     vertical-align: top;
+    display: inline-block;
 }
-#container_id .container > * {
-    display: block;
-    margin-bottom: 5px;
+
+#container_reseaux {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    right: 0;
+
+    font-size: 9pt;
 }
-#container_id .name {
+#container_reseaux i.background {
+    font-size: 7em;
+    top: -23px;
+    right: -16px;
+}
+
+#container_contact .name {
     color: black;
     margin-left: 5px;
     font-size: 42px;
 }
-#container_id .info_box {
+#container_contact .info_box {
     text-align: left;
     display: inline-block;
 }
-#container_id .info_box > * {
+#container_contact .info_box > * {
     margin-bottom: 4px;
     display: inline-block;
 }
+
 #animation1, #animation2 {
     color: #ddd;
     font-family: "WebAtlas";
     position: absolute;
     animation: icon-rotation 6s linear infinite;
+    z-index: -1;
 }
 #animation1 {
     font-size: 9em;
     top: 268px;
-    right: 118px;
+    right: 228px;
 }
 #animation2 {
     font-size: 7em;
-    top: 200px;
-    right: 38px;
+    top: 190px;
+    right: 155px;
     animation-direction: reverse;
 }
 
@@ -83,22 +140,38 @@ h2 {
 }
 
 
-/* LINKS */
-#container_links {
-    font-size: 12px;
-    position: absolute;
-    top: 18px;
-    right: 18px;
-}
-#container_links a {
+#container_reseaux a {
     color: #777777;
     margin-bottom: 7px;
     display: block;
 }
-#container_links a img {
+#container_reseaux a img {
     height: 14px;
     margin-right: 6px;
     vertical-align: top;
+}
+
+
+/* #bandeBlanche */
+
+#bandeBlanche {
+    width: 100%;
+    margin: 2em 0;
+    padding: 1em;
+    background-color: #F9F9F9;
+    box-shadow: 0 0 10px 0 rgba(76, 76, 76, .3);
+    position: relative;
+    left: -1em;
+}
+
+#bandeBlanche .container {
+    width: 50%;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+#bandeBlanche .container:first-child {
+    border-right: 5px dotted #E0E0E0;
 }
 
 
@@ -106,15 +179,30 @@ h2 {
 
 
 
+
 /* COMPETENCES */
 
+.container_competences {
+    width: 320px;
+    padding: 2em;
+    margin: 3em;
+    background-color: white;
+    box-shadow:
+        0 0 40px rgba(76, 76, 76, .3),
+        inset 0 0 40px rgba(76, 76, 76, .3);
+    display: inline-block;
+    position: relative;
+}
+.container_competences .icon {
+    width: 80px;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+}
 
+/* MOBILE */
 
-@media (max-width: 680px) {
-    #cv {
-        padding: 20px;
-    }
-
+@media (max-width: 750px) {
     #animation1 {
         font-size: 6em;
         top: 416px;
@@ -126,7 +214,7 @@ h2 {
         right: 36px;
     }
 
-    .container, .container-centered, .accordion, #container_id, #container_links, #container_id .container {
+    .container, .container-centered, #container_id, #container_contact, #container_reseaux, #container_id .container {
         width: 100%;
         text-align: center;
         display: block;
@@ -140,12 +228,6 @@ h2 {
 
     .realisation {
         margin: 2em 0;
-    }
-
-    h1 {
-        font-size: 25px;
-        margin: 40px 0;
-        letter-spacing: 10px;
     }
 
     h2 {
