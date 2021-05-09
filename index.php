@@ -93,15 +93,27 @@
 
         <div id="bandeBlanche">
             <div class="container">
-                <h2>Formation</h2>
-                <h2>Expérience</h2>
+                <h2>
+                    <i class="icon tutorial"></i>
+                    Formation
+                </h2>
+                <h2>
+                    <i class="icon calendar-valide"></i>
+                    Expérience
+                </h2>
             </div><div class="container">
-                <h2>Réalisations</h2>
+                <h2>
+                    <i class="icon badge sharp"></i>
+                    Réalisations
+                </h2>
             </div>
             
         </div>
 
-        <h2>Compétences</h2>
+        <h2>
+            <i class="icon star"></i>
+            Compétences
+        </h2>
 
         <div class="center">
             <div id="container_integrateur" class="container_competences">
