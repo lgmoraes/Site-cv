@@ -23,14 +23,6 @@ h2 .icon {
     color: #777777;
 }
 
-h3 {
-    color: #777777;
-    font-family: Arial;
-    letter-spacing: 5px;
-    text-align: right;
-    margin: 1em;
-}
-
 #container_job {
     line-height: 2em;
     color: #777777;
@@ -186,6 +178,25 @@ h3 {
     border-right: 5px dotted #E0E0E0;
 }
 
+#bandeBlanche .item {
+    margin: 1em 0;
+}
+
+#bandeBlanche h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+}
+
+#bandeBlanche .years {
+    font-weight: bold;
+    color: #777777;
+}
+
+#bandeBlanche .item {
+    margin-left: 1.8em;
+}
 
 /* REALISATION */
 
@@ -211,6 +222,15 @@ h3 {
     top: 2em;
     left: 2em;
 }
+
+.container_competences h3 {
+    color: #777777;
+    font-family: Arial;
+    letter-spacing: 5px;
+    text-align: right;
+    margin: 1em;
+}
+
 
 /* MOBILE */
 

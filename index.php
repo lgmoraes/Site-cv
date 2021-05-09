@@ -97,6 +97,12 @@
                     <i class="icon tutorial"></i>
                     Formation
                 </h2>
+                <div class="item">
+                    <h3>Gaston Berger Lille</h3>
+                    <div class="years">2012 - 2013</div>
+                    BTS - SIO (Services Informatiques aux Organisations)
+                </div>
+
                 <h2>
                     <i class="icon calendar-valide"></i>
                     Expérience
