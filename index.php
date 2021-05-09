@@ -107,6 +107,21 @@
                     <i class="icon calendar-valide"></i>
                     Expérience
                 </h2>
+                <div class="item">
+                    <h3>Alternance au Crédit du Nord - Lille</h3>
+                    <div class="years">2012 - 2013</div>
+                    Chargé de qualité
+
+                    <i class="icon circle-filled geometrics"></i>
+                    <div class="bar"></div>
+                </div>
+                <div class="item">
+                    <h3>GIP FCIP - Académie de Lille</h3>
+                    <div class="years">2014 - 2019</div>
+                    Développeur / Intégrateur Web
+
+                    <i class="icon circle-filled geometrics"></i>
+                </div>
             </div><div class="container">
                 <h2>
                     <i class="icon badge sharp"></i>
