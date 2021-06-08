@@ -201,14 +201,52 @@
                 <img src="assets/img/icone_integrateur.svg" class="icon">
                 <h3>INTÉGRATEUR</h3>
 
-
+                <div class="item">
+                    <img src="assets/img/htmlcss.svg" />
+                    <div class="title">HTML / CSS</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/sass.svg" />
+                    <div class="title">SASS</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/bootstrap.svg" />
+                    <div class="title">Bootstrap</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/ps.svg" />
+                    <div class="title">PS / SVG / Maquette</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/webpack.svg" />
+                    <div class="title">Webpack</div>
+                </div>
             </div>
 
             <div id="container_developpeur" class="container_competences">
                 <img src="assets/img/icone_developpeur.svg" class="icon">
                 <h3>DÉVELOPPEUR</h3>
 
-
+                <div class="item">
+                    <img src="assets/img/jsts.svg" />
+                    <div class="title">JS / TS</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/php.svg" />
+                    <div class="title">PHP Orienté Objet</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/mysql.svg" />
+                    <div class="title">MySQL</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/wordpress.svg" />
+                    <div class="title">WordPress / Thème</div>
+                </div>
+                <div class="item">
+                    <img src="assets/img/git.svg" />
+                    <div class="title">Git / npm</div>
+                </div>
             </div>
         </div>
 

@@ -262,29 +262,57 @@ img.logo:not(:first-child) {
 /* COMPETENCES */
 
 .container_competences {
-    width: 320px;
-    padding: 2em;
-    margin: 2em;
+    width: 310px;
+    max-width: 100%;
+    padding: 2.5em;
+    margin: 2.5em;
+    font-family: Arial;
+    color: #777777;
     background-color: white;
     box-shadow:
         0 0 40px rgba(76, 76, 76, .4),
         inset 0 0 40px rgba(76, 76, 76, .2);
+    vertical-align: top;
     display: inline-block;
     position: relative;
 }
 .container_competences .icon {
     width: 80px;
     position: absolute;
-    top: 2em;
-    left: 2em;
+    top: 2.5em;
+    left: 2.5em;
 }
 
 .container_competences h3 {
-    color: #777777;
-    font-family: Arial;
+    font-size: 1.2em;
     letter-spacing: 5px;
     text-align: right;
-    margin: 1em;
+    margin: 1em 0;
+    margin-bottom: 3em;
+}
+
+.container_competences .item {
+    padding: .5em 0;
+    text-align: left;
+}
+.container_competences .item:last-child {
+    padding-bottom: 0;
+}
+
+.container_competences .item img {
+    height: 2.5em;
+    width:3em;
+    margin-right: 1em;
+    vertical-align: middle;
+    position: relative;
+    bottom: 0.1em;
+}
+
+.container_competences .item .title {
+    font-size: 1.1em;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .1);
+    letter-spacing: 3px;
+    display: inline-block;
 }
 
 
