@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,6 +17,7 @@
 
     <title>CV Louis Moraes</title>
 </head>
+
 <body>
     <input type="text" id="inputClipboard" style="display:none" />
 
@@ -26,17 +28,17 @@
                 Aller au portfolio
             </div>
         </a>
-        
+
         <div id="btns">
             <div id="btn_download" class="btn vst icon circle-download"></div><!--
          --><div id="btn_toggleClearMode" class="btn vst icon sun"></div><!--
          --><div id="btn_toggleFullscreen" class="btn vst icon arrow-resize-up"></div>
         </div>
-        
+
     </div>
 
     <div id="btn_arrowUp" class="btn glass icon arrow2-up"></div>
-    
+
     <!-- CV -->
     <div id="cv" class="page">
         <div id="container_id">
@@ -46,21 +48,24 @@
 
         <div id="container_contact">
             <h2>CONTACT</h2>
-            <a href="mailto:lmoraes@hotmail.fr">
-                <i class="icon email"></i> Lmoraes@hotmail.fr
-            </a>
-            <br>
-            <a href="tel:0629029351">
-                <i class="icon mobile"></i> 06 29 02 93 51
-            </a>
-            <br>
-            <a href="https://www.google.fr/maps/place/93+Rue+Cuvier,+59200+Tourcoing">
-                <div class="icon home"></div>
-                <div id="address">
-                    93 rue Cuvier<br>
-                    59200 Tourcoing
-                </div>
-            </a>
+
+            <div>
+                <a href="mailto:lmoraes@hotmail.fr">
+                    <i class="icon email"></i> Lmoraes@hotmail.fr
+                </a>
+                <br>
+                <a href="tel:0629029351">
+                    <i class="icon mobile"></i> 06 29 02 93 51
+                </a>
+                <br>
+                <a href="https://www.google.fr/maps/place/93+Rue+Cuvier,+59200+Tourcoing">
+                    <div class="icon home"></div>
+                    <div id="address">
+                        93 rue Cuvier<br>
+                        59200 Tourcoing
+                    </div>
+                </a>
+            </div>
 
             <i class="background icon idCard"></i>
         </div>
@@ -92,43 +97,50 @@
         <div id="animation2" class="icon gear8"></div>
 
         <div id="bandeBlanche">
-            <div class="container">
-                <h2>
-                    <i class="icon tutorial"></i>
-                    Formation
-                </h2>
-                <div class="item">
-                    <h3>Gaston Berger Lille</h3>
-                    <div class="years">2012 - 2013</div>
-                    BTS - SIO (Services Informatiques aux Organisations)
+            <div class="col-50">
+                <div class="borderRight"></div>
+                <div class="container">
+                    <h2>
+                        <i class="icon tutorial"></i>
+                        Formation
+                    </h2>
+                    <div class="item">
+                        <h3>Gaston Berger Lille</h3>
+                        <div class="years">2012 - 2013</div>
+                        BTS - SIO (Services Informatiques aux Organisations)
+                    </div>
                 </div>
+                <div class="container">
+                    <h2>
+                        <i class="icon calendar-valide"></i>
+                        Expérience
+                    </h2>
+                    <div class="item">
+                        <h3>Alternance au Crédit du Nord - Lille</h3>
+                        <div class="years">2012 - 2013</div>
+                        Chargé de qualité
 
-                <h2>
-                    <i class="icon calendar-valide"></i>
-                    Expérience
-                </h2>
-                <div class="item">
-                    <h3>Alternance au Crédit du Nord - Lille</h3>
-                    <div class="years">2012 - 2013</div>
-                    Chargé de qualité
+                        <i class="icon circle-filled geometrics"></i>
+                        <div class="bar"></div>
+                    </div>
+                    <div class="item">
+                        <h3>GIP FCIP - Académie de Lille</h3>
+                        <div class="years">2014 - 2019</div>
+                        Développeur / Intégrateur Web
 
-                    <i class="icon circle-filled geometrics"></i>
-                    <div class="bar"></div>
+                        <i class="icon circle-filled geometrics"></i>
+                    </div>
                 </div>
-                <div class="item">
-                    <h3>GIP FCIP - Académie de Lille</h3>
-                    <div class="years">2014 - 2019</div>
-                    Développeur / Intégrateur Web
-
-                    <i class="icon circle-filled geometrics"></i>
+            </div><div class="col-50">
+                <div class="container">
+                    <h2>
+                        <i class="icon badge sharp"></i>
+                        Réalisations
+                    </h2>
                 </div>
-            </div><div class="container">
-                <h2>
-                    <i class="icon badge sharp"></i>
-                    Réalisations
-                </h2>
+                
             </div>
-            
+
         </div>
 
         <h2>
@@ -140,7 +152,7 @@
             <div id="container_integrateur" class="container_competences">
                 <img src="assets/img/icone_integrateur.svg" class="icon">
                 <h3>INTÉGRATEUR</h3>
-                
+
 
             </div>
 
@@ -151,12 +163,13 @@
 
             </div>
         </div>
-        
-                
+
+
     </div>
 
-<script src="node_modules/atom_webatlas/dist/atom.js"></script>
-<script src="node_modules/screenfull/dist/screenfull.js"></script>
-<script src="assets/cv.js"></script>
+    <script src="node_modules/atom_webatlas/dist/atom.js"></script>
+    <script src="node_modules/screenfull/dist/screenfull.js"></script>
+    <script src="assets/cv.js"></script>
 </body>
+
 </html>

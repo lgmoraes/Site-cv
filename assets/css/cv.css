@@ -1,5 +1,5 @@
 #cv {
-    padding: 2em;
+    padding: 1em;
     color: black;
     background-color: #EEEEEE;
     font-family: Calibri, sans-serif;
@@ -23,9 +23,13 @@ h2 {
 h2 .icon {
     color: #777777;
 }
+#cv > h2 {
+    margin-left: 1rem;
+}
 
 #container_job {
-    line-height: 2em;
+    line-height: 1.5em;
+    padding: .5em 0;
     color: #777777;
     font-family: Arial;
     text-align: center;
@@ -51,11 +55,12 @@ h2 .icon {
 /* CONTACT & RESEAUX */
 
 #container_contact, #container_reseaux {
-    width: 160px;
+    width: 150px;
     height: 150px;
     color: #777777;
     background-color: #F5F5F5;
-    padding: 1em;
+    font-size: 15px;
+    padding: 14px;
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgba(76, 76, 76, .4);
     overflow: hidden;
@@ -128,12 +133,12 @@ h2 .icon {
 }
 #animation1 {
     font-size: 9em;
-    top: 268px;
+    top: 273px;
     right: 228px;
 }
 #animation2 {
     font-size: 7em;
-    top: 190px;
+    top: 195px;
     right: 155px;
     animation-direction: reverse;
 }
@@ -161,22 +166,31 @@ h2 .icon {
 #bandeBlanche {
     width: 100%;
     margin: 2em 0;
-    padding: 1em 2em;
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: .5em;
     background-color: #F9F9F9;
     box-shadow: 0 0 20px 0 rgba(76, 76, 76, .4);
     position: relative;
-    left: -2em;
+    left: -1em;
 }
 
-#bandeBlanche .container {
+#bandeBlanche .col-50 {
     width: 50%;
-    padding: 1em;
     box-sizing: border-box;
 }
 
-#bandeBlanche .container:first-child {
-    padding-left: 0;
+.col-50 .borderRight {
+    position: absolute;
+    top: 1em;
+    left: 0;
+    right: 0;
+    bottom: .5em;
     border-right: 5px dotted #E0E0E0;
+}
+
+#bandeBlanche .container {
+    padding: 1em;
 }
 
 #bandeBlanche .item {
@@ -190,7 +204,7 @@ h2 .icon {
     transform: scale(.5);
     position: absolute;
     top: 0;
-    left: 11.5px;
+    left: 11px;
 }
 #bandeBlanche .item .bar {
     width: 2px;
@@ -252,17 +266,17 @@ h2 .icon {
 }
 
 
-/* MOBILE */
+/*** MOBILE ***/
 
 @media (max-width: 750px) {
     #animation1 {
         font-size: 6em;
-        top: 416px;
+        top: 496px;
         right: 83px;
     }
     #animation2 {
         font-size: 4.5em;
-        top: 364px;
+        top: 444px;
         right: 36px;
     }
 
@@ -284,5 +298,70 @@ h2 .icon {
 
     h2 {
         text-align: center;
+    }
+
+
+    /* CONTACT */
+
+    #container_contact {
+        width: auto;
+        height: auto;
+        padding: 0;
+        font-size: 1.3em;
+        text-align: center;
+        background: none;
+        box-shadow: none;
+    }
+    #container_contact h2, #container_contact i.background {
+        display: none;
+    }
+    #container_contact div {
+        text-align: left;
+        display: inline-block;
+    }
+
+
+    /* RESEAUX */
+
+    #container_reseaux {
+        width: auto;
+        height: auto;
+        padding: 2em;
+        background: none;
+        box-shadow: none;
+    }
+    #container_reseaux h2, #container_reseaux i.background {
+        display: none;
+    }
+    #container_reseaux a {
+        display: inline-block;
+    }
+    #container_reseaux a img {
+        height: 2.5em;
+    }
+    #container_reseaux .link {
+        display: none;
+    }
+
+
+    /* BANDE BLANCHE */
+   
+    #bandeBlanche .container {
+        width: auto;
+    }
+    #bandeBlanche .col-50 {
+        width: 100%;
+    }
+    #bandeBlanche .borderRight {
+        display: none;
+    }
+    #bandeBlanche .item {
+        padding-left: 0;
+    }
+    #bandeBlanche h3 {
+        text-align: center;
+    }
+    #bandeBlanche .circle-filled, #bandeBlanche .bar {
+        display: none;
     }
 }
