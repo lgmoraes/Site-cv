@@ -234,7 +234,29 @@ h2 .icon {
 
 /* REALISATION */
 
+#realisation h3 {
+    font-weight: bold;
+    color: #777777;
+}
 
+#realisation .list {
+    font-size: .8em;
+}
+
+#realisation .description {
+    padding-left: 1.8em;
+}
+
+img.logo {
+    height: 1.5em;
+    padding-right: .3em;
+    vertical-align: middle;
+    position: relative;
+    bottom: .11em;
+}
+img.logo:not(:first-child) {
+    padding-left: 1em;
+}
 
 
 /* COMPETENCES */
@@ -363,5 +385,10 @@ h2 .icon {
     }
     #bandeBlanche .circle-filled, #bandeBlanche .bar {
         display: none;
+    }
+
+    /* REALISATION */
+    #realisation .item {
+        padding: 1em 0;
     }
 }

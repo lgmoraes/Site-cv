@@ -132,11 +132,59 @@
                     </div>
                 </div>
             </div><div class="col-50">
-                <div class="container">
+                <div id="realisation" class="container">
                     <h2>
                         <i class="icon badge sharp"></i>
                         Réalisations
                     </h2>
+                    <div class="list">
+                        <div class="item">
+                            <h3>
+                                <img class="logo" src="assets/img/videoclic.png" />Video Clic
+                                <img class="logo" src="assets/img/docvoc.png" />DocVoc
+                            </h3>
+                            <div class="description">
+                                Outils de création de modules e-learning au format HTML5.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                <img class="logo" src="assets/img/autablo.png" />Autablo
+                                <img class="logo" src="assets/img/testezvous.png" />Testez-vous
+                            </h3>
+                            <div class="description">
+                                Plateformes e-learning de formation.
+                                (Mur virtuel, Création de quiz, sondages et de positionnement)
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                <img class="logo" src="assets/img/pdc.png" />Plan de Développement des Compétences
+                            </h3>
+                            <div class="description">
+                                Plateforme d'inscriptions et de gestion d'actions de formations.
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                <img class="logo" src="assets/img/baseressources.png" />Base Ressources
+                                <img class="logo" src="assets/img/sigip.png" />SI GIP
+                            </h3>
+                            <div class="description">
+                                Applications répondant à des besoins en interne.
+                                (Base de ressources pédagogiques, Synchronisation de données)
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>
+                                <img class="logo" src="assets/img/webatlas.png" />Font Webatlas
+                            </h3>
+                            <div class="description">
+                                Module d'icones dynamiques pour des sites ou applications proposant plusieurs chartes graphique.
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 
             </div>
