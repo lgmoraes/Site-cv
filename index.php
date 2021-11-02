@@ -42,6 +42,9 @@
     <!-- CV -->
     <div id="cv" class="page">
         <div id="top">
+            <div id="animation1" class="icon gear8"></div>
+            <div id="animation2" class="icon gear8"></div>
+
             <div id="container_id">
                 <img id="cv_photo" src="assets/img/louis-moraes.svg" width="150" alt="Photo CV">
                 <h1>Louis MORAES</h1>
@@ -93,9 +96,6 @@
             <div id="container_job">
                 DÉVELOPPEUR / INTÉGRATEUR WEB
             </div>
-
-            <div id="animation1" class="icon gear8"></div>
-            <div id="animation2" class="icon gear8"></div>
         </div>
         
         <div id="bandeBlanche">

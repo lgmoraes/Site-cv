@@ -9,6 +9,11 @@
 #top {
     padding-top: 1em;
     padding-bottom: 2em;
+    background: radial-gradient(
+        circle at 50% 4em,
+        white 10%,
+        #BFBFBF 125%
+    );
 }
 
 .icon::before {
@@ -40,6 +45,7 @@ h2 .icon {
     text-align: center;
     font-size: 18px;
     letter-spacing: 5px;
+    position: relative;
 }
 
 .container {
@@ -129,11 +135,10 @@ h2 .icon {
 }
 
 #animation1, #animation2 {
-    color: #ddd;
+    color: #d0d0d0;
     font-family: "WebAtlas";
     position: absolute;
     animation: icon-rotation 6s linear infinite;
-    z-index: -1;
 }
 #animation1 {
     font-size: 9em;
@@ -338,6 +343,9 @@ img.logo:not(:first-child) {
         position: relative;
     }
 
+    #animation1, #animation2 {
+        color: #c4c4c4;
+    }
     #animation1 {
         font-size: 6em;
         top: 496px;
