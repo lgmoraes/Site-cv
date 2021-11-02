@@ -101,15 +101,13 @@ body {
 
 
 @media (max-width: 340px) {
-    body {
-        padding-top: 80px;
-    }
     #menuTop {
         padding: 7px;
     }
     #btns {
         width: 100%;
-        margin-top: 10px;
+        float: none;
+        margin-top: 8px;
         display: block;
     }
     #btns .btn {

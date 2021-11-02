@@ -41,61 +41,63 @@
 
     <!-- CV -->
     <div id="cv" class="page">
-        <div id="container_id">
-            <img id="cv_photo" src="assets/img/louis-moraes.svg" width="150" alt="Photo CV">
-            <h1>Louis MORAES</h1>
-        </div>
-
-        <div id="container_contact">
-            <h2>CONTACT</h2>
-
-            <div>
-                <a href="mailto:lmoraes@hotmail.fr">
-                    <i class="icon email"></i> Lmoraes@hotmail.fr
-                </a>
-                <br>
-                <a href="tel:0629029351">
-                    <i class="icon mobile"></i> 06 29 02 93 51
-                </a>
-                <br>
-                <a href="https://www.google.fr/maps/place/93+Rue+Cuvier,+59200+Tourcoing">
-                    <div class="icon home"></div>
-                    <div id="address">
-                        93 rue Cuvier<br>
-                        59200 Tourcoing
-                    </div>
-                </a>
+        <div id="top">
+            <div id="container_id">
+                <img id="cv_photo" src="assets/img/louis-moraes.svg" width="150" alt="Photo CV">
+                <h1>Louis MORAES</h1>
             </div>
 
-            <i class="background icon idCard"></i>
+            <div id="container_contact">
+                <h2>CONTACT</h2>
+
+                <div>
+                    <a href="mailto:lmoraes@hotmail.fr">
+                        <i class="icon email"></i> Lmoraes@hotmail.fr
+                    </a>
+                    <br>
+                    <a href="tel:0629029351">
+                        <i class="icon mobile"></i> 06 29 02 93 51
+                    </a>
+                    <br>
+                    <a href="https://www.google.fr/maps/place/93+Rue+Cuvier,+59200+Tourcoing">
+                        <div class="icon home"></div>
+                        <div id="address">
+                            93 rue Cuvier<br>
+                            59200 Tourcoing
+                        </div>
+                    </a>
+                </div>
+
+                <i class="background icon idCard"></i>
+            </div>
+
+            <div id="container_reseaux">
+                <h2>RÉSEAUX</h2>
+
+                <a href="https://www.linkedin.com/in/lgmoraes">
+                    <img src="assets/img/linkedin.svg" alt="icon linked in">
+                    <span class="link">linkedin.com/in/lgmoraes</span>
+                </a>
+                <a href="https://www.npmjs.com/~lgmoraes">
+                    <img src="assets/img/npm.svg" alt="icon npm">
+                    <span class="link">npmjs.com/~lgmoraes</span>
+                </a>
+                <a href="https://github.com/lgmoraes">
+                    <img src="assets/img/github.svg" alt="icon github">
+                    <span class="link">github.com/lgmoraes</span>
+                </a>
+
+                <i class="background icon network"></i>
+            </div>
+
+            <div id="container_job">
+                DÉVELOPPEUR / INTÉGRATEUR WEB
+            </div>
+
+            <div id="animation1" class="icon gear8"></div>
+            <div id="animation2" class="icon gear8"></div>
         </div>
-
-        <div id="container_reseaux">
-            <h2>RÉSEAUX</h2>
-
-            <a href="https://www.linkedin.com/in/lgmoraes">
-                <img src="assets/img/linkedin.svg" alt="icon linked in">
-                <span class="link">linkedin.com/in/lgmoraes</span>
-            </a>
-            <a href="https://www.npmjs.com/~lgmoraes">
-                <img src="assets/img/npm.svg" alt="icon npm">
-                <span class="link">npmjs.com/~lgmoraes</span>
-            </a>
-            <a href="https://github.com/lgmoraes">
-                <img src="assets/img/github.svg" alt="icon github">
-                <span class="link">github.com/lgmoraes</span>
-            </a>
-
-            <i class="background icon network"></i>
-        </div>
-
-        <div id="container_job">
-            DÉVELOPPEUR / INTÉGRATEUR WEB
-        </div>
-
-        <div id="animation1" class="icon gear8"></div>
-        <div id="animation2" class="icon gear8"></div>
-
+        
         <div id="bandeBlanche">
             <div class="col-50">
                 <div class="borderRight"></div>

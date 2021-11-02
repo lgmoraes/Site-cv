@@ -1,9 +1,14 @@
 #cv {
-    padding: 1em;
+    padding: 0;
     color: black;
     background-color: #EEEEEE;
     font-family: Calibri, sans-serif;
     position: relative;
+}
+
+#top {
+    padding-top: 1em;
+    padding-bottom: 2em;
 }
 
 .icon::before {
@@ -24,7 +29,7 @@ h2 .icon {
     color: #777777;
 }
 #cv > h2 {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 #container_job {
@@ -59,7 +64,7 @@ h2 .icon {
     height: 150px;
     color: #777777;
     background-color: #F5F5F5;
-    font-size: 15px;
+    font-size: 14px;
     padding: 14px;
     border-radius: 10px;
     box-shadow: 0 0 20px 0 rgba(76, 76, 76, .4);
@@ -101,8 +106,7 @@ h2 .icon {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     right: 0;
-
-    font-size: 9pt;
+    font-size: 8.3pt;
 }
 #container_reseaux i.background {
     font-size: 7em;
@@ -164,15 +168,13 @@ h2 .icon {
 /* #bandeBlanche */
 
 #bandeBlanche {
-    width: 100%;
-    margin: 2em 0;
+    margin-bottom: 2em;
     padding: 1em;
     padding-top: 0;
     padding-bottom: .5em;
     background-color: #F9F9F9;
     box-shadow: 0 0 20px 0 rgba(76, 76, 76, .4);
     position: relative;
-    left: -1em;
 }
 
 #bandeBlanche .col-50 {
@@ -319,6 +321,23 @@ img.logo:not(:first-child) {
 /*** MOBILE ***/
 
 @media (max-width: 750px) {
+    body {
+        padding: 0;
+    }
+
+    #cv {
+        margin-top: 0;
+    }
+
+    #cv #top {
+        padding: 1em;
+        padding-bottom: 2em;
+    }
+
+    #menuTop {
+        position: relative;
+    }
+
     #animation1 {
         font-size: 6em;
         top: 496px;
@@ -346,7 +365,8 @@ img.logo:not(:first-child) {
         margin: 2em 0;
     }
 
-    h2 {
+    #cv h2 {
+        margin-left: 0;
         text-align: center;
     }
 
@@ -418,5 +438,26 @@ img.logo:not(:first-child) {
     /* REALISATION */
     #realisation .item {
         padding: 1em 0;
+    }
+    #realisation .description {
+        padding: 0;
+    }
+}
+@media (max-width: 500px) {
+    .container_competences {
+        width: auto;
+        margin: 2em 1em;
+        font-size: 0.7em;
+    }
+    .container_competences .icon {
+        position: static;
+    }
+    .container_competences h3 {
+        text-align: center;
+    }
+}
+@media (max-width: 350px) {
+    .container_competences {
+        font-size: 0.5em;
     }
 }
