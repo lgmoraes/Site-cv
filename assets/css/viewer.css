@@ -100,7 +100,7 @@ body {
 }
 
 
-@media (max-width: 340px) {
+@media (max-width: 350px) {
     #menuTop {
         padding: 7px;
     }
